@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: rgb(166 81 169);
+        }
+
+        .container {
+            background-color: rgb(249, 147, 225);
+            border: 3px solid rgb(158, 26, 114);
+
+            /* We can set padding/margin for top,botttom,left and right like this */
+            /* padding-top:  30px;
+            padding-bottom: 30px;
+            padding-left: 30px;
+            padding-right: 30px; */
+
+            /* margin-top: 4px;
+            margin-bottom: 5px;
+            margin-left: 36px;
+            margin-right: 7px; */
+
+            /* padding: top right bottom left; */
+            /* margin: top right bottom left; */
+
+            /* padding: 23px 20px 15px 10px; */
+            /* margin: 23px 20px 15px 10px; */
+
+            /* padding: y(top/bottom) x(left/right); */
+            /* marr=gin: y(top/bottom) x(left/right); */
+            padding: 34px 19px;
+            margin: 14px auto;
+            border-radius: 25px;
+            width: 500px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>This is my first heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum iure voluptatem molestiae quidem
+            temporibus amet. Maiores rem omnis veritatis voluptatem.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my second heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum iure voluptatem molestiae quidem
+            temporibus amet. Maiores rem omnis veritatis voluptatem.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my third heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum iure voluptatem molestiae quidem
+            temporibus amet. Maiores rem omnis veritatis voluptatem.</p>
+    </div>
+
+</body>
+
+</html>
